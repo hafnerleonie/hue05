@@ -36,8 +36,7 @@ public class EratosthenesPrimeSieve implements  PrimeSieve {
 
     public static void main(String[] args) {
         EratosthenesPrimeSieve e = new EratosthenesPrimeSieve();
-        e.isPrime(n);
-        e.printPrimes();
+
 
     }
 }
