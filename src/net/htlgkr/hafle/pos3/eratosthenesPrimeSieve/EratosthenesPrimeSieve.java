@@ -15,8 +15,6 @@ public class EratosthenesPrimeSieve implements  PrimeSieve {
         for (int factor = 2; factor <= p; factor++) {
 
             if (isPrime[factor]) {
-                onlyPrimes[counter] = factor;
-                counter++;
                 for (int j = 2; factor * j <= n; j++) {
                     isPrime[factor * j] = false;
                 }
